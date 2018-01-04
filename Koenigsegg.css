@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https/fonts.googleapis.com/css?family=Lato:300,400,700,900&apos');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.knapp {
+position: absolute;
+display: inline-block;
+border-width: '2px';
+border-style: solid;
+border-color: #F83;
+padding: 1em 3em;
+margin: auto;
+margin-bottom: 3.5em;
+background-color:none;
+text-decoration: none;
+text-transform: uppercase;
+color: #232323;
+font-size: 1.3em;
+left: 10em;
+top: 20em;
+}

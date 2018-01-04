@@ -33,6 +33,7 @@ font-size: 1.5em;
 margin: -.3em;
 padding: 0;
 font-weight: 400;
+line-height: 1.5em;
 }
 
 img {max-width:100%;}
@@ -56,13 +57,14 @@ border-style: solid;
 border-color: #F83;
 padding: 1em 3em;
 margin: auto;
+margin-bottom: 3.5em;
 background-color:none;
 text-decoration: none;
 text-transform: uppercase;
 color: #FFF;
 font-size: 1.3em;
 left: 10em;
-top: 46em;
+top: 50em;
 }
 
  
@@ -81,7 +83,7 @@ align-items: flex-start;
   background-color: blue;
 }
 
-.text {
+.tekst_2 {
   flex: 2;
   padding: 2em;
   padding-right: 40em;

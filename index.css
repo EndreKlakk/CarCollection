@@ -13,7 +13,12 @@ height: auto;
 background-size: cover;
 background-color: #232323;
 }
-h1
+
+* img {
+  max-width: 20vw;
+  height: auto;
+  display: block;
+}
 
 /*main_grid*/
 #content {
@@ -22,7 +27,7 @@ h1
 	margin: 0 auto;
 	align-items: stretch;
 	grid-template-areas:
-	"tittel . ."
+	"tittel tittel tittel"
 	"koenigsegg pagani bugatti"
 	"ferrari audi mclaren"
 	"lambo chev ford"
@@ -31,6 +36,16 @@ h1
 
 .tittel {
 	grid-area: tittel;
+  text-align: center;
+}
+
+.tittel h1 {
+	border: solid #FFF;
+	padding: .5em;
+	margin: .8em 17em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.2em;
 }
 
 /*koenigsegg*/
@@ -43,14 +58,7 @@ h1
 	"koenigseggb"
 	"koenigseggl"
 }
-
 .koenigseggb {
-grid-area: koenigseggb;
-}
-.koenigseggb img {
-max-width: 40%;
-height: auto;
-display: inline-block;
 grid-area: koenigseggb;
 }
 .koenigseggl {
@@ -70,12 +78,6 @@ grid-area: koenigseggb;
 .paganib {
 grid-area: paganib;
 }
-.paganib img {
-	max-width: 25%;
-	height: auto;
-	display: inline-block;
-	grid-area: paganib;
-}
 .paganil {
 	grid-area: paganil;
 }
@@ -90,14 +92,7 @@ grid-area: paganib;
 	"bugattib"
 	"bugattil"
 }
-
 .bugattib {
-grid-area: bugattib;
-}
-.bugattib img {
-max-width: 10%;
-height: auto;
-display: inline-block;
 grid-area: bugattib;
 }
 .bugattil {
@@ -117,12 +112,6 @@ grid-area: bugattib;
 .ferrarib {
 grid-area: ferrarib;
 }
-.ferrarib img {
-max-width: 10%;
-height: auto;
-display: inline-block;
-grid-area: ferrarib;
-}
 .ferraril {
 	grid-area: ferraril;
 }
@@ -137,15 +126,8 @@ grid-area: ferrarib;
 	"audib"
 	"audil"
 }
-
 .audib {
 grid-area: audib;
-}
-.audib img {
-	max-width: 10%;
-	height: auto;
-	display: inline-block;
-	grid-area: audib;
 }
 .audil {
 	grid-area: audil;
@@ -161,15 +143,8 @@ grid-area: audib;
 	"mclarenb"
 	"mclarenl"
 }
-
 .mclarenb {
 grid-area: mclarenb;
-}
-.mclarenb img {
-	max-width: 10%;
-	height: auto;
-	display: inline-block;
-	grid-area: mclarenb;
 }
 .mclarenl {
 	grid-area: mclarenl;
@@ -185,15 +160,8 @@ grid-area: mclarenb;
 	"lambob"
 	"lambol"
 }
-
 .lambob {
 grid-area: lambob;
-}
-.lambob {
-	max-width: 10%;
-	height: auto;
-	display: inline-block;
-	grid-area: lambob;
 }
 .lambol {
 	grid-area: lambol;
@@ -209,15 +177,8 @@ grid-area: lambob;
 	"chevb"
 	"chevl"
 }
-
 .chevb {
 grid-area: chevb;
-}
-.chevb img {
-max-width: 10%;
-height: auto;
-display: inline-block;
-grid-area: ferrarib;
 }
 .chevl {
 	grid-area: chevl;
@@ -233,14 +194,7 @@ grid-area: ferrarib;
 	"fordb"
 	"fordl"
 }
-
 .fordb {
-grid-area: fordb;
-}
-.fordb img {
-max-width: 10%;
-height: auto;
-display: inline-block;
 grid-area: fordb;
 }
 .fordl {
@@ -257,14 +211,7 @@ grid-area: fordb;
 	"astonb"
 	"astonl"
 }
-
 .astonb {
-grid-area: astonb;
-}
-.astonb img {
-max-width: 10%;
-height: auto;
-display: inline-block;
 grid-area: astonb;
 }
 .astonl {

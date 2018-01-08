@@ -13,6 +13,7 @@ height: auto;
 background-size: cover;
 background-color: #232323;
 }
+h1
 
 /*main_grid*/
 #content {
@@ -33,7 +34,7 @@ background-color: #232323;
 }
 
 /*koenigsegg*/
-#koenigsegg {
+.koenigsegg {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -47,7 +48,7 @@ background-color: #232323;
 grid-area: koenigseggb;
 }
 .koenigseggb img {
-max-width: 10%;
+max-width: 40%;
 height: auto;
 display: inline-block;
 grid-area: koenigseggb;
@@ -57,7 +58,7 @@ grid-area: koenigseggb;
 }
 
 /*pagani*/
-#pagani {
+.pagani {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -80,7 +81,7 @@ grid-area: paganib;
 }
 
 /*bugatti*/
-#bugatti {
+.bugatti {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -104,7 +105,7 @@ grid-area: bugattib;
 }
 
 /*ferrari*/
-#ferrari {
+.ferrari {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -127,7 +128,7 @@ grid-area: ferrarib;
 }
 
 /*audi*/
-#audi {
+.audi {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -151,7 +152,7 @@ grid-area: audib;
 }
 
 /*mclaren*/
-#mclaren {
+.mclaren {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -175,7 +176,7 @@ grid-area: mclarenb;
 }
 
 /*lambo*/
-#lambo {
+.lambo {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -199,7 +200,7 @@ grid-area: lambob;
 }
 
 /*chev*/
-#chev {
+.chev {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -223,7 +224,7 @@ grid-area: ferrarib;
 }
 
 /*ford*/
-#ford {
+.ford {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;
@@ -247,7 +248,7 @@ grid-area: fordb;
 }
 
 /*aston*/
-#aston {
+.aston {
 	display: grid;
 	grid-auto-rows: minmax(100px, auto);
 	margin: 0 auto;

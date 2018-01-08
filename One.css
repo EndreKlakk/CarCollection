@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https/fonts.googleapis.com/css?family=Lato:300,400,700,900&apos');
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: "Lato", sans-serif;
+ text-align: left;
+ background-color: #232323;
+ color: #FFF;
+}
+
+/* data* */
+
+@media screen and (min-width: 760px) {
+#content {
+	display: grid;
+	grid-auto-rows: minmax(100px, auto);
+	margin: 0 auto;
+	grid-template-areas:
+	"header header header"
+	"top_text top_text picture"
+	"top_text top_text picture"
+	"middle_text middle_text middle_text"
+	"picture_2 picture_2 picture_2"
+}
+}
+
+/* mobil */
+
+#content {
+	display: grid;
+	grid-auto-rows: minmax(100px, auto);
+	margin: 0 auto;
+	grid-template-areas:
+	"header"
+	"top_text"
+	"top_text"
+	"middle_text"
+	"picture_2"
+}
+
+.header {
+
+	grid-area: header;
+}
+
+.picture {
+
+	grid-area: top_text;
+}
+
+.top_text {
+
+	grid-area: picture;
+}
+
+.middle_text span {
+
+	grid-area: middle_text;
+	padding: 1em;
+	display: inline-block;
+	padding-top: 1em;
+
+}
+
+.picture_2 {
+
+	grid-area: picture_2;
+}

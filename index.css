@@ -23,15 +23,21 @@ background-color: #232323;
 /*main_grid*/
 #content {
 	display: grid;
-	grid-auto-rows: minmax(100px, auto);
+	grid-auto-rows: minmax(400px, auto);
 	margin: 0 auto;
 	align-items: stretch;
 	grid-template-areas:
-	"tittel tittel tittel"
-	"koenigsegg pagani bugatti"
-	"ferrari audi mclaren"
-	"lambo chev ford"
-	"aston . ."
+	"tittel"
+	"koenigsegg"
+	"pagani"
+	"bugatti"
+	"ferrari"
+	"audi"
+	"mclaren"
+	"lambo"
+	"chev"
+	"ford"
+	"aston"
 }
 
 .tittel {
@@ -40,7 +46,7 @@ background-color: #232323;
 }
 
 .tittel h1 {
-	border: solid #FFF;
+	border: solid red;
 	padding: .5em;
 	margin: .8em 17em;
 	text-align: center;
@@ -51,12 +57,12 @@ background-color: #232323;
 /*koenigsegg*/
 .koenigsegg {
 	display: grid;
-	grid-auto-rows: minmax(100px, auto);
+	grid-auto-rows: minmax(380px, auto);
 	margin: 0 auto;
 	grid-area: koenigsegg;
 	grid-template-areas:
-	"koenigseggb"
-	"koenigseggl"
+	"koenigseggb koenigseggt"
+	". koenigseggl"
 }
 .koenigseggb {
 grid-area: koenigseggb;
@@ -72,8 +78,8 @@ grid-area: koenigseggb;
 	margin: 0 auto;
 	grid-area: pagani;
 	grid-template-areas:
-	"paganib"
-	"paganil"
+	"paganit paganib"
+	"paganil ."
 }
 .paganib {
 grid-area: paganib;

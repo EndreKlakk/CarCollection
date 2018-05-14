@@ -55,18 +55,18 @@ a:not(hover) {
 /* bilde*/
 .ko {
   grid-area: ko;
-  width: 50%;
+  width: 75%;
   height: auto;
   margin: 3em;
   align-items: center;
 }
 
 .tekst_1 {
-  grid-area: tekst_1;
-font-size: 1.3em;
+grid-area: tekst_1;
+font-size: 1.5em;
 line-height: 1.7em;
-width: 90%;
-margin: 4em;
+width: 80%;
+margin: 5em;
 margin-left: auto;
 margin-right: auto;
 }
@@ -90,55 +90,61 @@ margin-right: auto;
 /* bilde */
 .pa {
   grid-area: pa;
-  width: 50%;
+  width: 70%;
   height: auto;
   margin-top: 7em;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 9em;
 }
 
 .tekst_2 {
 grid-area: tekst_2;
-font-size: 2em;
-line-height: 1.2em;
-width: 90%;
-margin: 4em;
+font-size: 1.5em;
+line-height: 1.7em;
+width: 80%;
+margin: 5em;
 margin-left: auto;
 margin-right: auto;
+margin-top: 6em;
 }
 
 .knapa {
 grid-area: knapa;
 border-width: '4px';
 border-style: solid;
+padding: .6em .5em 0 .5em;
 border-color: #b30000;
 font-size: 1.5em;
 text-align: center;
 color: #232323;
 text-decoration: none;
-padding: .6em .5em 0 .5em;
-width: 5em;
+width: 8em;
 height: 1.8em;
-margin-left: 15%;
-margin-right: auto;
-}
-
-.tekst_3 {
-  grid-area: tekst_3;
-  font-size: 2em;
-line-height: 1.2em;
-width: 90%;
-margin: 4em;
 margin-left: auto;
 margin-right: auto;
 }
 
+.tekst_3 {
+grid-area: tekst_3;
+font-size: 1.5em;
+line-height: 1.7em;
+width: 80%;
+margin: 5em;
+margin-left: auto;
+margin-right: auto;
+margin-top: 6em;
+}
+
 .bu {
   grid-area: bu;
-  width: 50%;
+  width: 95%;
   height: auto;
+  margin-top: 4em;
 
 }
+
+
     .home {
       background-image: url(https://i.pinimg.com/originals/1e/2e/c3/1e2ec308f206f937f80ef90fabc891a2.jpg);
       background-size: cover;

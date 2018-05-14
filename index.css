@@ -49,23 +49,7 @@ a:not(hover) {
   border-color:  #FFF;
   padding: ..3em .3em;
   width: 6em;
-
   }
-
-.knako  {
-grid-area: knako;
-border-width: '4px';
-border-style: solid;
-padding: .6em .5em 0 .5em;
-border-color: #b30000;
-font-size: 2em;
-text-align: center;
-color: #232323;
-text-decoration: none;
-width: 8em;
-height: 1.8em;
-margin-left: 66.66%
-}
 
 
 /* bilde*/
@@ -73,15 +57,32 @@ margin-left: 66.66%
   grid-area: ko;
   width: 50%;
   height: auto;
-  margin: 1.5em;
+  margin: 3em;
+  align-items: center;
 }
 
 .tekst_1 {
   grid-area: tekst_1;
-font-size: 2em;
-line-height: 1.2em;
+font-size: 1.3em;
+line-height: 1.7em;
 width: 90%;
 margin: 4em;
+margin-left: auto;
+margin-right: auto;
+}
+
+.knako  {
+grid-area: knako;
+border-width: '4px';
+border-style: solid;
+padding: .6em .5em 0 .5em;
+border-color: #b30000;
+font-size: 1.5em;
+text-align: center;
+color: #232323;
+text-decoration: none;
+width: 8em;
+height: 1.8em;
 margin-left: auto;
 margin-right: auto;
 }
@@ -89,7 +90,7 @@ margin-right: auto;
 /* bilde */
 .pa {
   grid-area: pa;
-  width: 70%;
+  width: 50%;
   height: auto;
   margin-top: 7em;
   margin-right: auto;
@@ -97,8 +98,8 @@ margin-right: auto;
 }
 
 .tekst_2 {
-  grid-area: tekst_2;
-  font-size: 2em;
+grid-area: tekst_2;
+font-size: 2em;
 line-height: 1.2em;
 width: 90%;
 margin: 4em;
@@ -107,11 +108,11 @@ margin-right: auto;
 }
 
 .knapa {
-  grid-area: knapa;
+grid-area: knapa;
 border-width: '4px';
 border-style: solid;
 border-color: #b30000;
-font-size: 2em;
+font-size: 1.5em;
 text-align: center;
 color: #232323;
 text-decoration: none;

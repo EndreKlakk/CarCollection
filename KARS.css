@@ -3,10 +3,10 @@
 @import url('https/fonts.googleapis.com/css?family=Lato:300,400,700,900&apos');
 
 body {
-  
+
   background-color: #232323;
   margin: 0;
-  font-family: "Lato", sans-serif;  
+  font-family: "Lato", sans-serif;
   color: white;
   text-decoration: none;
   padding: 0;
@@ -26,7 +26,7 @@ background-color: #F83;
 color: #FFF;
 border-color: #F83;
 }
-h1 { 
+h1 {
 
 font-size: 5em;
 margin: 0.4em;
@@ -52,6 +52,7 @@ font-weight: 400;
 line-height: 1.5em;
 margin-top: 2em;
 }
+
 img {max-width:100%;}
 
 .tittel {
@@ -87,7 +88,7 @@ right: 3em;
 margin-top: 10.7em;
 }
 
- 
+
  .tekst_1 {
 display: flex;
 padding: .5em;
@@ -110,9 +111,7 @@ align-items: flex-start;
 }
 
 .button {
-  flex: 0;
   align-content: left;
-  background-color: green;
 }
 
 .agera {
@@ -125,7 +124,7 @@ align-items: flex-start;
    text-align: center;
    padding: 10px;
    text-align: left;
-} 
+}
 
 
 .home  {

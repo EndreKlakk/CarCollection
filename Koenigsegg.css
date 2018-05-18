@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https/fonts.googleapis.com/css?family=Lato:300,400,700,900&apos');
 body {
-font-family: "Lato", sans-serif;  
+font-family: "Lato", sans-serif;
 text-decoration: none;
 max-width: 100%;
 color: #FFF;
@@ -31,13 +31,9 @@ a:not(:hover){
 #koenigsegg {
 text-decoration: none;
 display: grid;
-grid-template-areas: 
+grid-template-areas:
 "home home home home sver"
 "tittel tittel tittel tittel tittel"
-"agera agera agera agera agera"
-"tittel_1 tittel_1 tittel_1 tittel_1 tittel_1"
-"tekst_1 tekst_1 tekst_1 tekst_1 tekst_1"
-"ageral ageral ageral ageral ageral"
 "one one one one one"
 "tittel_2 tittel_2 tittel_2 tittel_2 tittel_2"
 "tekst_2 tekst_2 tekst_2 tekst_2 tekst_2"
@@ -46,6 +42,10 @@ grid-template-areas:
 "tittel_3 tittel_3 tittel_3 tittel_3 tittel_3"
 "tekst_3 tekst_3 tekst_3 tekst_3 tekst_3"
 "ccl ccl ccl ccl ccl"
+"agera agera agera agera agera"
+"tittel_1 tittel_1 tittel_1 tittel_1 tittel_1"
+"tekst_1 tekst_1 tekst_1 tekst_1 tekst_1"
+"ageral ageral ageral ageral ageral"
 "regera regera regera regera regera"
 "tittel_4 tittel_4 tittel_4 tittel_4 tittel_4"
 "tekst_4 tekst_4 tekst_4 tekst_4 tekst_4"
@@ -104,10 +104,10 @@ margin-right: auto;
 color: #FFF;
 text-decoration: none;
 }
-.agera { 
+.agera {
 grid-area: agera;
 background-image: url("https://hdqwalls.com/download/koenigsegg-agera-rs-naraya-4k-2048x1152.jpg");
-height: 900px; 
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -153,7 +153,7 @@ margin-bottom: 0.5em;
 .one {
 grid-area: one;
 background-image: url("http://1.bp.blogspot.com/-VUGFIQGCRhI/VS1ZooEv-wI/AAAAAAAAAYU/pEFUALGyeqU/s1600/30206-koenigsegg-agera-1920x1080-car-wallpaper.jpg");
-height: 900px; 
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -201,7 +201,7 @@ margin-bottom: .5em;
 .cc {
 grid-area: cc;
 background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0b/1996-koenigsegg-cc-prototype_100529345_l.jpg");
-height: 900px; 
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -295,7 +295,7 @@ margin-bottom: 2em;
 .chris {
 grid-area: chris;
 background-image: url("https://billionairetoys.com/wp-content/uploads/bg-christian.jpg");
-height: 900px; 
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;

@@ -15,6 +15,8 @@ body::-webkit-scrollbar {
     width: 0;
 }
 
+
+
 #alt {
   display: grid;
   grid-template-areas:
@@ -78,10 +80,11 @@ a:not(hover) {
   border-width: '4px';
   border-style: solid;
   padding: .6em .5em 0 .5em;
+  color: #232323;
   border-color: #b30000;
+  background-color: #FFF;
   font-size: 2em;
   text-align: center;
-  color: #232323;
   text-decoration: none;
   width: 8em;
   height: 1.8em;
@@ -146,6 +149,19 @@ a:not(hover) {
 
 .knabu {
   grid-area: knabu;
+  border-width: '4px';
+  border-style: solid;
+  border-color: #b30000;
+  font-size: 2em;
+  text-align: center;
+  color: #232323;
+  text-decoration: none;
+  padding: .6em .5em 0 .5em;
+  width: 5em;
+  height: 1.8em;
+  margin-left: 15%;
+  margin-right: auto;
+  margin-bottom: 2em;
 }
 
     .home {

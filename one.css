@@ -34,9 +34,9 @@ body::-webkit-scrollbar-thumb {
 
 .home {
   grid-area: home;
-  border-width: .25em;
+  border-width: '25px';
   border-style: solid;
-  padding: .1em .1em;
+  padding: .3em .3em;
   width: 3em;
   margin: 1em;
   height: 1em;
@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb {
   grid-area: ko;
   width: 50%;
   height: auto;
-  margin-left: 50%;
+  margin-left: 5vw;
   margin-right: auto;
 }
 
@@ -105,9 +105,9 @@ margin-top: 4em;
   grid-area: tekst_1;
   font-size: 1.8em;
   line-height: 1.2em;
-  width: 80%;
+  width: 80vw;
   height: auto;
-  margin-left: auto;
+  margin-left: 10vw;
   margin-right: auto;
   margin-top: 5em;
   margin-bottom: 10em;
@@ -115,50 +115,44 @@ margin-top: 4em;
 
 .bvo {
   grid-area: bvo;
-  width: 100%;
+  width: 66.66666vw;
   height: auto;
-  margin-left: -.5em;
+  margin-left: -1vw;
 }
 
 .bho {
 grid-area: bho;
-max-width: 138.5%;
+width: 50vw;
 height: auto;
-margin-left: -.5em;
 }
 
 .bvm {
   grid-area: bvm;
-  width: 100%;
+  width: 50vw;
   height: auto;
-  margin-left: -.5em
-
 }
 
 .bhm {
   grid-area: bhm;
-  width: 150%;
+  width: 50vw;
   height: auto;
-  margin-left: -4em;
 }
 
 
 .bvn {
   grid-area: bvn;
-  width: 90%;
+  width: 33.33333vw;
   height: auto;
-  margin-left: -2em
 }
 
 .bhn {
   grid-area: bhn;
-  width: 122.5%;
+  width: 66.66666vw;
   height: auto;
-  margin-left: -7.6em;
 }
 
 @media (min-width: 25rem) {
- .home{
+ .bilde_1{
   width: 100%;
   height: 100vh;
  }
@@ -166,14 +160,14 @@ margin-left: -.5em;
 
 
 @media (min-width: 60rem) {
- .home{
+ .bilde_1{
   width: 100%;
   height: auto;
  }
 }
 
 @media (min-height: 30rem) {
- .home{
+ .bilde_1{
   width: 100%;
   height: 100vh;
  }

@@ -15,6 +15,16 @@ body::-webkit-scrollbar {
     width: 0;
 }
 
+.home {
+  background-image: url(https://images.unsplash.com/photo-1506469717960-433cebe3f181?ixlib=rb-0.3.5&s=8a3680936dcf244756ccaf1cdfcdefc8&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-position: center;
+  padding: 1em;
+  color: #FFF;
+  width: 100vw;
+  height: 100vh;
+}
+
 
 
 #alt {
@@ -27,6 +37,8 @@ body::-webkit-scrollbar {
   "knapa knapa"
   "bu tekst_3"
   "knabu knabu"
+  "tekst_4 la"
+  "knala knala"
 }
 
 a:hover {
@@ -46,23 +58,25 @@ a:not(hover) {
 .tittel {
   grid-area: tittel;
   font-size: 4em;
-  color: #FFF;
-  border-width: '40px';
+  color: #cc9966;
+  border-color:  #cc9966;
+  border-radius: 5vw;
   border-style: solid;
-  border-color:  #FFF;
   padding: .3em .3em;
   width: 6em;
 }
 
+
 /* bilde*/
 .ko {
   grid-area: ko;
-  width: 50%;
+  width: 30vw;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+  margin-top: 3vw;
 }
 
 .tekst_1 {
@@ -78,17 +92,16 @@ a:not(hover) {
 .knako  {
   grid-area: knako;
   border-width: '4px';
+  border-radius: 5vw;
   border-style: solid;
   padding: .6em .5em 0 .5em;
-  color: #232323;
   border-color: #b30000;
-  background-color: #FFF;
   font-size: 2em;
   text-align: center;
   text-decoration: none;
-  width: 8em;
+  width: auto;
   height: 1.8em;
-  margin-left: 66.6%;
+  margin-left: 66.6vw;
   margin-right: auto;
   margin-bottom: 2em;
   margin-top: 1em;
@@ -97,7 +110,7 @@ a:not(hover) {
 /* bilde */
 .pa {
   grid-area: pa;
-  width: 50%;
+  width: 25vw;
   height: auto;
   margin-top: 7em;
   margin: auto;
@@ -116,6 +129,7 @@ a:not(hover) {
 .knapa {
   grid-area: knapa;
   border-width: '4px';
+  border-radius: 5vw;
   border-style: solid;
   border-color: #b30000;
   font-size: 2em;
@@ -123,16 +137,17 @@ a:not(hover) {
   color: #232323;
   text-decoration: none;
   padding: .6em .5em 0 .5em;
-  width: 5em;
+  width: auto;
   height: 1.8em;
   margin-left: 15%;
   margin-right: auto;
   margin-bottom: 2em;
 }
 
+/* Bilde */
 .bu {
   grid-area: bu;
-  width: 70%;
+  width: 30vw;
   height: auto;
   margin: auto;
 }
@@ -150,6 +165,7 @@ a:not(hover) {
 .knabu {
   grid-area: knabu;
   border-width: '4px';
+  border-radius: 5vw;
   border-style: solid;
   border-color: #b30000;
   font-size: 2em;
@@ -157,22 +173,51 @@ a:not(hover) {
   color: #232323;
   text-decoration: none;
   padding: .6em .5em 0 .5em;
-  width: 5em;
+  width: auto;
+  height: 1.8em;
+  margin-left: 66.66666vw;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+/* bilde */
+.la {
+  grid-area: la;
+  width: 25vw;
+  height: auto;
+  margin-top: 4vw;
+  margin: auto;
+  text-align: center;
+}
+
+.tekst_4 {
+  grid-area: tekst_4;
+  font-size: 2em;
+  line-height: 1.2em;
+  width: 90%;
+  margin: 4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.knala {
+  grid-area: knala;
+  border-width: '4px';
+  border-radius: 5vw;
+  border-style: solid;
+  border-color: #b30000;
+  font-size: 2em;
+  text-align: center;
+  color: #232323;
+  text-decoration: none;
+  padding: .6em .5em 0 .5em;
+  width: auto;
   height: 1.8em;
   margin-left: 15%;
   margin-right: auto;
   margin-bottom: 2em;
 }
 
-    .home {
-      background-image: url(https://images.unsplash.com/photo-1506469717960-433cebe3f181?ixlib=rb-0.3.5&s=8a3680936dcf244756ccaf1cdfcdefc8&auto=format&fit=crop&w=1350&q=80);
-      background-size: cover;
-      background-position: center;
-      padding: 1em;
-      color: #FFF;
-     width: 100vw;
-    height: 100vh;
-       }
 
 @media (min-width: 25rem) {
  .home{

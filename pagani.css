@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https/fonts.googleapis.com/css?family=Lato:300,400,700,900&apos');
 body {
-font-family: "Lato", sans-serif;  
+font-family: "Lato", sans-serif;
 text-decoration: none;
 max-width: 100%;
 color: #267326;
@@ -33,7 +33,7 @@ a:not(:hover){
 #koenigsegg {
 text-decoration: none;
 display: grid;
-grid-template-areas: 
+grid-template-areas:
 "home home home home sver"
 "tittel tittel tittel tittel tittel"
 "agera agera agera agera agera"
@@ -108,10 +108,10 @@ margin-right: auto;
 color: #267326;
 text-decoration: none;
 }
-.agera { 
+.agera {
 grid-area: agera;
 background-image: url("https://icdn-1.motor1.com/images/mgl/PN91L/s1/pagani-huayra-weight-race-render.jpg");
-height: 900px; 
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -158,7 +158,7 @@ margin-bottom: 0.5em;
 .one {
 grid-area: one;
 background-image: url("https://4.bp.blogspot.com/-T8kBr9mqTBI/US_Xaz47qXI/AAAAAAAADac/gI3FftEILVY/s1600/Pagani+Zonda+R+Wallpapers+(2).jpg");
-height: 900px; 
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -218,7 +218,7 @@ margin-bottom: .5em;
 .cc {
 grid-area: cc;
 background-image: url("https://i.ytimg.com/vi/xuetmJ-VQ10/maxresdefault.jpg");
-height: 900px; 
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -263,7 +263,7 @@ margin-bottom: 1em;
 }
 .regera {
 grid-area: regera;
-background-image: url("http://wallpapers-best.com/uploads/posts/2015-11/15_koenigsegg_regera.jpg");
+background-image: url("https://www.pagani.com/app/uploads/2016/12/1972-1024x577.jpg");
 height: 900px;
 background-attachment: fixed;
 background-position: center;
@@ -312,7 +312,7 @@ margin-bottom: 2em;
 .hor {
 grid-area: hor;
 background-image: url("https://img.autobytel.com/car-reviews/autobytel/123188-who-is-horacio-pagani/DSC_6927Horacio_Pagani.jpg");
-height: 900px; 
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;

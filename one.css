@@ -24,59 +24,36 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   display: grid;
   grid-template-areas:
-  "home tittel_1 . ko"
-  "bilde_1 bilde_1 bilde_1 bilde_1"
-  "tekst_1 tekst_1 tekst_1 tekst_1"
-  "bvo bvo bho bho"
-  "bvm bvm bhm bhm"
-  "bvn bvn bhn bhn"
+  "home home tittel_1 tittel_1 ko ko"
+  "bilde_1 bilde_1 bilde_1 bilde_1 bilde_1 bilde_1"
+  "tekst_1 tekst_1 tekst_1 tekst_1 tekst_1 tekst_1"
+  "bvo bvo bvo bho bho bho"
+  "bvm bvm bvm bhm bhm bhm"
+  "bvn bvn bvn bhn bhn bhn"
 }
 
 .home {
   grid-area: home;
+  width: 1em;
+  height: 1em;
   border-width: '4px';
   border-style: solid;
-  border-radius: 4em;
+  border-radius: 4vw;
   border-color: #b30000;
   font-size: 2em;
   text-align: center;
-  color: #232323;
+  color: #B22222;
   text-decoration: none;
-  padding: .6em .5em 0 .5em;
-  width: auto;
-  height: 1.8em;
-  margin-left: 15%;
-  margin-bottom: 2em;
+  text-align: center;
 }
 
-.home:hover {
-  color: #0066ff;
-  border-color: #0066ff;
-  transition: 1s;
-}
-
-.home:not(:hover){
-  color:  #B22222;
-  border-color: #B22222;
-  transition: 1s;
-}
 
 .ko {
   grid-area: ko;
-  width: 50%;
+  width: 15vw;
   height: auto;
-  margin-left: 5vw;
-  margin-right: auto;
-}
-
-.ko:hover{
-  margin-top: 3em;
-  transition: 1s;
-}
-
-.ko:not(:hover){
-  margin-top: 2em;
-  transition: 1s;
+  margin-left: auto;
+  text-align: center;
 }
 
 .tittel_1 {
@@ -87,7 +64,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: .5em;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -111,6 +88,7 @@ margin-top: 4em;
   line-height: 1.2em;
   width: 80vw;
   height: auto;
+  text-align: justify;
   margin-left: 10vw;
   margin-right: auto;
   margin-top: 5em;
@@ -119,14 +97,17 @@ margin-top: 4em;
 
 .bvo {
   grid-area: bvo;
-  width: 66.66666vw;
+  width: 70vw;
+  position: fixed;
+  display: none;
+  overflow: auto;
   height: auto;
   margin-left: -1vw;
 }
 
 .bho {
 grid-area: bho;
-width: 50vw;
+width: 66.66666vw;
 height: auto;
 }
 
@@ -172,6 +153,56 @@ height: auto;
 
 @media (min-height: 30rem) {
  .bilde_1{
+  width: 100%;
+  height: 100vh;
+ }
+}
+
+
+/* HOME */
+
+@media (min-width: 25rem) {
+ .home{
+  width: 100%;
+  height: 100vh;
+ }
+}
+
+
+@media (min-width: 60rem) {
+ .home{
+  width: 100%;
+  height: auto;
+ }
+}
+
+@media (min-height: 30rem) {
+ .home{
+  width: 100%;
+  height: 100vh;
+ }
+}
+
+
+/* ONE */
+
+@media (min-width: 25rem) {
+ #ONE{
+  width: 100%;
+  height: 100vh;
+ }
+}
+
+
+@media (min-width: 60rem) {
+ #ONE{
+  width: 100%;
+  height: auto;
+ }
+}
+
+@media (min-height: 30rem) {
+ #ONE{
   width: 100%;
   height: 100vh;
  }

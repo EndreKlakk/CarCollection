@@ -83,10 +83,9 @@ a:not(hover) {
   grid-area: tekst_1;
   font-size: 2em;
   line-height: 1.2em;
-  width: 90%;
-  margin: 4em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 40vw;
+  text-align: justify;
+  margin: auto;
 }
 
 .knako  {
@@ -120,7 +119,8 @@ a:not(hover) {
   grid-area: tekst_2;
   font-size: 2em;
   line-height: 1.2em;
-  width: 90%;
+  width: 45vw;
+  text-align: justify;
   margin: 4em;
   margin-left: auto;
   margin-right: auto;
@@ -156,10 +156,9 @@ a:not(hover) {
   grid-area: tekst_3;
   font-size: 2em;
   line-height: 1.2em;
-  width: 90%;
-  margin: 4em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 40vw;
+  text-align: justify;
+  margin: 1em;
 }
 
 .knabu {
@@ -177,13 +176,13 @@ a:not(hover) {
   height: 1.8em;
   margin-left: 66.66666vw;
   margin-right: auto;
-  margin-bottom: 2em;
+  margin-bottom: 8vw;
 }
 
 /* bilde */
 .la {
   grid-area: la;
-  width: 25vw;
+  width: 20vw;
   height: auto;
   margin-top: 4vw;
   margin: auto;
@@ -194,8 +193,9 @@ a:not(hover) {
   grid-area: tekst_4;
   font-size: 2em;
   line-height: 1.2em;
-  width: 90%;
-  margin: 4em;
+  width: 45vw;
+  text-align: justify;
+  margin: auto;
   margin-left: auto;
   margin-right: auto;
 }

@@ -59,7 +59,7 @@ grid-template-areas:
 
 .home {
 grid-area: home;
-border-width: .25em;
+border-width: '25px';
 border-radius: 5vw;
 display: inline-block;
 border-style: solid;

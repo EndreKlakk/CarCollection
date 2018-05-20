@@ -34,39 +34,32 @@ body::-webkit-scrollbar-thumb {
 
 .home {
   grid-area: home;
-  width: 1em;
-  height: 1em;
-  border-width: '4px';
-  border-style: solid;
-  border-radius: 4vw;
   border-color: #b30000;
-  font-size: 2em;
-  text-align: center;
   color: #B22222;
+  border-radius: 4vw;
+  border-style: solid;
+  text-align: center;
   text-decoration: none;
-  text-align: center;
+  font-size: 2em;
+  height: 2vw;
+  width: auto;
 }
 
-
-.ko {
-  grid-area: ko;
-  width: 15vw;
-  height: auto;
-  margin-left: auto;
-  text-align: center;
-}
 
 .tittel_1 {
   grid-area: tittel_1;
   color: #B22222;
   font-size: 5em;
-  margin-bottom: .5em;
-  margin-top: .5em;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-
+  margin-left: 15vw;
 }
+
+.ko {
+  grid-area: ko;
+  width: 15vw;
+  height: auto;
+  margin-left: 10vw;
+}
+
 
 .bilde_1 {
 grid-area: bilde_1;
@@ -98,11 +91,7 @@ margin-top: 4em;
 .bvo {
   grid-area: bvo;
   width: 70vw;
-  position: fixed;
-  display: none;
-  overflow: auto;
   height: auto;
-  margin-left: -1vw;
 }
 
 .bho {

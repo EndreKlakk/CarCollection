@@ -1,0 +1,464 @@
+@charset "UTF-8";
+@import url('https/fonts.googleapis.com/css?family=Lato:300,400,700,900&apos');
+body {
+font-family: "Lato", sans-serif;
+text-decoration: none;
+max-width: 100%;
+color: #FFF;
+height: auto;
+background-color: #232323;
+}
+body::-webkit-scrollbar {
+    width: 0em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #FFF;
+}
+
+
+a:hover {
+background-color: #FFF;
+color: #232323;
+transition: .5s;
+}
+
+a:not(:hover){
+	transition: .5s;
+	background-color: #232323;
+	color: #FFF;
+}
+
+.home {
+grid-area: home;
+border-width: '25px';
+border-radius: 5vw;
+display: inline-block;
+border-style: solid;
+border-color: #FFF;
+padding: .7em .5em 0 .5em;
+text-align: center;
+width: 4em;
+height: 2em;
+margin: 1em;
+text-decoration: none;
+color: #FFF;
+font-size: 1.6em;
+}
+
+img.flagg {
+grid-area: flagg;
+width: 15vw;
+margin-left: 65vw;
+margin-top: 2vw;
+}
+
+.tittel {
+grid-area: tittel;
+border-width: .1em;
+border-style: solid;
+border-color: #FFF;
+width: 9em;
+font-size: 4.5em;
+margin-bottom: 1em;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: #FFF;
+text-decoration: none;
+}
+.tittel_1 {
+grid-area: tittel_1;
+font-size: 5em;
+margin-right: auto;
+margin-left: auto;
+margin-top: .5em;
+margin-bottom: 0.5em;
+}
+.tekst_1 {
+grid-area: tekst_1;
+font-size: 2em;
+line-height: 1.2em;
+width: 90vw;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+}
+.link_1 {
+grid-area: link_1;
+text-decoration: none;
+max-width: 100%;
+border-style: solid;
+border-width: .2em;
+border-radius: 1vw;
+border-color: #FFF;
+padding: .4em .1em .6em .1em;
+color: #FFF;
+text-align: center;
+width: 6em;
+height: 1em;
+font-size: 2.2em;
+margin-top: 1.5em;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1.5em;
+}
+
+.tittel_2 {
+grid-area: tittel_2;
+font-size: 5em;
+margin-right: auto;
+margin-left: auto;
+margin-top: .5em;
+margin-bottom: 0.5em;
+}
+.tekst_2 {
+grid-area: tekst_2;
+font-size: 2em;
+line-height: 1.2em;
+width: 90vw;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+}
+.link_2 {
+grid-area: link_2;
+text-decoration: none;
+max-width: 100%;
+border-style: solid;
+border-width: .2em;
+border-color: #FFF;
+border-radius: 1vw;
+padding: .4em .1em .6em .1em;
+color: #FFF;
+text-align: center;
+width: 6em;
+height: 1em;
+font-size: 2.2em;
+align-items: center;
+margin-top: 1.5em;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1.5em;
+}
+
+.tittel_3 {
+grid-area: tittel_3;
+font-size: 5em;
+margin-right: auto;
+margin-left: auto;
+margin-top: .5em;
+margin-bottom: 0.5em;
+}
+.tekst_3 {
+grid-area: tekst_3;
+font-size: 2em;
+line-height: 1.2em;
+width: 90vw;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+}
+.link_3 {
+grid-area: link_3;
+text-decoration: none;
+max-width: 100%;
+border-style: solid;
+border-width: .2em;
+border-radius: 1vw;
+border-color: #FFF;
+padding: .4em .1em .6em .1em;
+color: #FFF;
+text-align: center;
+width: 6em;
+height: 1em;
+font-size: 2.2em;
+align-items: center;
+margin-top: 1.5em;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1.5em;
+}
+
+.tittel_4 {
+grid-area: tittel_4;
+font-size: 5em;
+margin-right: auto;
+margin-left: auto;
+margin-top: .5em;
+margin-bottom: 0.5em;
+}
+
+.tekst_4 {
+grid-area: tekst_4;
+font-size: 2em;
+line-height: 1.2em;
+width: 90vw;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+}
+.link_4 {
+grid-area: link_4;
+text-decoration: none;
+max-width: 100%;
+border-style: solid;
+border-width: .2em;
+border-radius: 1vw;
+border-color: #FFF;
+padding: .4em .1em .6em .1em;
+color: #FFF;
+text-align: center;
+width: 6em;
+height: 1em;
+font-size: 2.2em;
+align-items: center;
+margin-top: 1.5em;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1.5em;
+}
+
+.tittel_5 {
+grid-area: tittel_5;
+font-size: 5em;
+margin-right: auto;
+margin-left: auto;
+margin-top: .5em;
+margin-bottom: 0.5em;
+}
+.tekst_5 {
+grid-area: tekst_5;
+font-size: 2em;
+line-height: 1.2em;
+width: 90vw;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+}
+.link_5 {
+grid-area: link_5;
+text-decoration: none;
+max-width: 100%;
+border-style: solid;
+border-width: .2em;
+border-radius: 1vw;
+border-color: #FFF;
+padding: .4em .1em .6em .1em;
+color: #FFF;
+text-align: center;
+width: 12em;
+height: 1em;
+font-size: 2.2em;
+align-items: center;
+margin-top: 1.5em;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1.5em;
+}
+
+
+@media (min-width: 25rem) {
+ .content{
+  width: 100%;
+  height: 100vh;
+ }
+}
+
+
+@media (min-width: 60rem) {
+ .content{
+  width: 100%;
+  height: auto;
+ }
+}
+
+@media (min-height: 30rem) {
+ .content{
+  width: 100%;
+  height: 100vh;
+ }
+}
+
+.agera {
+grid-area: agera;
+background-image: url("https://hdqwalls.com/download/koenigsegg-agera-rs-naraya-4k-2048x1152.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+.one {
+grid-area: one;
+background-image: url("http://1.bp.blogspot.com/-VUGFIQGCRhI/VS1ZooEv-wI/AAAAAAAAAYU/pEFUALGyeqU/s1600/30206-koenigsegg-agera-1920x1080-car-wallpaper.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+
+.cc {
+grid-area: cc;
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0b/1996-koenigsegg-cc-prototype_100529345_l.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+.regera {
+grid-area: regera;
+background-image: url("http://wallpapers-best.com/uploads/posts/2015-11/15_koenigsegg_regera.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+
+.chris {
+grid-area: chris;
+background-image: url("https://billionairetoys.com/wp-content/uploads/bg-christian.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+/* PAGANI */
+
+.huayra {
+grid-area: huayra;
+background-image: url("https://icdn-1.motor1.com/images/mgl/PN91L/s1/pagani-huayra-weight-race-render.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+
+.zonda_r {
+grid-area: zonda_r;
+background-image: url("https://icdn-1.motor1.com/images/mgl/PN91L/s1/pagani-huayra-weight-race-render.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+
+.zonda_c12 {
+grid-area: zonda_c12;
+background-image: url("https://icdn-1.motor1.com/images/mgl/PN91L/s1/pagani-huayra-weight-race-render.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+
+.dune_buggie {
+grid-area: dune_buggie;
+background-image: url("https://icdn-1.motor1.com/images/mgl/PN91L/s1/pagani-huayra-weight-race-render.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+
+.hor {
+grid-area: hor;
+background-image: url("https://icdn-1.motor1.com/images/mgl/PN91L/s1/pagani-huayra-weight-race-render.jpg");
+height: 900px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -.5em;
+margin-right: -.5em;
+}
+
+#koenigsegg {
+text-decoration: none;
+display: grid;
+grid-template-areas:
+"home flagg"
+"tittel tittel"
+"agera agera"
+"tittel_1 tittel_1"
+"tekst_1 tekst_1"
+"link_1 link_1"
+"one one"
+"tittel_2 tittel_2"
+"tekst_2 tekst_2"
+"link_2 link_2"
+"cc cc"
+"tittel_3 tittel_3"
+"tekst_3 tekst_3"
+"link_3 link_3"
+"regera regera"
+"tittel_4 tittel_4"
+"tekst_4 tekst_4"
+"link_4 link_4"
+"chris chris"
+"tittel_5 tittel_5"
+"tekst_5 tekst_5"
+"link_5 link_5"
+}
+
+#pagani {
+text-decoration: none;
+display: grid;
+grid-template-areas:
+"home flagg"
+"tittel tittel"
+"huayra huayra"
+"tittel_1 tittel_1"
+"tekst_1 tekst_1"
+"link_1 link_1"
+"zonda_r zonda_r"
+"tittel_2 tittel_2"
+"tekst_2 tekst_2"
+"link_2 link_2"
+"zonda_c12 zonda_c12"
+"tittel_3 tittel_3"
+"tekst_3 tekst_3"
+"link_3 link_3"
+"dune_buggie dune_buggie"
+"tittel_4 tittel_4"
+"tekst_4 tekst_4"
+"link_4 link_4"
+"hor hor"
+"tittel_5 tittel_5"
+"tekst_5 tekst_5"
+"link_5 link_5"
+}

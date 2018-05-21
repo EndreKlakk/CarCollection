@@ -35,6 +35,10 @@ display: grid;
 grid-template-areas:
 "home home home home sver"
 "tittel tittel tittel tittel tittel"
+"agera agera agera agera agera"
+"tittel_1 tittel_1 tittel_1 tittel_1 tittel_1"
+"tekst_1 tekst_1 tekst_1 tekst_1 tekst_1"
+"ageral ageral ageral ageral ageral"
 "one one one one one"
 "tittel_2 tittel_2 tittel_2 tittel_2 tittel_2"
 "tekst_2 tekst_2 tekst_2 tekst_2 tekst_2"
@@ -43,10 +47,6 @@ grid-template-areas:
 "tittel_3 tittel_3 tittel_3 tittel_3 tittel_3"
 "tekst_3 tekst_3 tekst_3 tekst_3 tekst_3"
 "ccl ccl ccl ccl ccl"
-"agera agera agera agera agera"
-"tittel_1 tittel_1 tittel_1 tittel_1 tittel_1"
-"tekst_1 tekst_1 tekst_1 tekst_1 tekst_1"
-"ageral ageral ageral ageral ageral"
 "regera regera regera regera regera"
 "tittel_4 tittel_4 tittel_4 tittel_4 tittel_4"
 "tekst_4 tekst_4 tekst_4 tekst_4 tekst_4"
@@ -109,7 +109,7 @@ text-decoration: none;
 .agera {
 grid-area: agera;
 background-image: url("https://hdqwalls.com/download/koenigsegg-agera-rs-naraya-4k-2048x1152.jpg");
-height: 50vw;
+height: 900px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -129,7 +129,8 @@ margin-bottom: 0.5em;
 grid-area: tekst_1;
 font-size: 2em;
 line-height: 1.2em;
-width: 90%;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }
@@ -139,6 +140,7 @@ text-decoration: none;
 max-width: 100%;
 border-style: solid;
 border-width: .2em;
+border-radius: 1vw;
 border-color: #FFF;
 padding: .5em .5em;
 color: #FFF;
@@ -174,9 +176,9 @@ margin-bottom: 0.5em;
 .tekst_2 {
 grid-area: tekst_2;
 font-size: 2em;
-line-height: 1.4em;
-margin-top: 5%;
-width: 90%;
+line-height: 1.2em;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }
@@ -187,6 +189,7 @@ max-width: 100%;
 border-style: solid;
 border-width: .2em;
 border-color: #FFF;
+border-radius: 1vw;
 padding: .5em .5em;
 color: #FFF;
 text-align: center;
@@ -223,7 +226,8 @@ margin-bottom: 0.5em;
 grid-area: tekst_3;
 font-size: 2em;
 line-height: 1.2em;
-width: 90%;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }
@@ -233,6 +237,7 @@ text-decoration: none;
 max-width: 100%;
 border-style: solid;
 border-width: .2em;
+border-radius: 1vw;
 border-color: #FFF;
 padding: .5em .5em;
 color: #FFF;
@@ -270,7 +275,8 @@ margin-bottom: 0.5em;
 grid-area: tekst_4;
 font-size: 2em;
 line-height: 1.2em;
-width: 90%;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }
@@ -280,6 +286,7 @@ text-decoration: none;
 max-width: 100%;
 border-style: solid;
 border-width: .2em;
+border-radius: 1vw;
 border-color: #FFF;
 padding: .5em .5em;
 color: #FFF;
@@ -316,9 +323,9 @@ margin-bottom: 0.5em;
 .tekst_5 {
 grid-area: tekst_5;
 font-size: 2em;
-line-height: 1.4em;
-margin-top: 5%;
-width: 90%;
+line-height: 1.2em;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }
@@ -328,6 +335,7 @@ text-decoration: none;
 max-width: 100%;
 border-style: solid;
 border-width: .2em;
+border-radius: 1vw;
 border-color: #FFF;
 padding: .5em .5em;
 color: #FFF;

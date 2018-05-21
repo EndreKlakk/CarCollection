@@ -4,11 +4,10 @@ body {
 font-family: "Lato", sans-serif;
 text-decoration: none;
 max-width: 100%;
-color: red;
+color: green;
 height: auto;
-background-color: pink;
+background-color: red;
 }
-
 body::-webkit-scrollbar {
     width: 0em;
 }
@@ -347,7 +346,7 @@ align-items: center;
 margin-top: 1.5em;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 5em;
+margin-bottom: .5em;
 }
 
 @media (min-width: 25rem) {

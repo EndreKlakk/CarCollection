@@ -132,7 +132,8 @@ grid-area: tekst_1;
 font-size: 2em;
 color: black;
 line-height: 1.2em;
-width: 90%;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }
@@ -179,12 +180,11 @@ margin-bottom: 0.5em;
 grid-area: tekst_2;
 color: black;
 font-size: 2em;
-line-height: 1.4em;
-margin-top: 5%;
-width: 90%;
+line-height: 1.2em;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
-text-align: center;
 }
 .onel {
 grid-area: onel;
@@ -238,7 +238,8 @@ margin-bottom: 0.5em;
 grid-area: tekst_3;
 font-size: 2em;
 line-height: 1.2em;
-width: 90%;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }
@@ -285,7 +286,8 @@ margin-bottom: 0.5em;
 grid-area: tekst_4;
 font-size: 2em;
 line-height: 1.2em;
-width: 90%;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }
@@ -332,7 +334,8 @@ margin-bottom: 0.5em;
 grid-area: tekst_5;
 font-size: 2em;
 line-height: 1.2em;
-width: 90%;
+width: 90vw;
+text-align: justify;
 margin-left: auto;
 margin-right: auto;
 }

@@ -17,3 +17,8 @@ body {
 body::-webkit-scrollbar {
     width: 0;
 }
+
+p.tekst_1 {
+  color: red;
+  font-size: 4em;
+}

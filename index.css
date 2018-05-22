@@ -32,27 +32,27 @@ body::-webkit-scrollbar {
   grid-template-areas:
   "tittel ."
   "ko tekst_1"
-  "knako knako"
+  "link_1 link_1"
   "tekst_2 pa"
-  "knapa knapa"
+  "link_2 link_2"
   "bu tekst_3"
-  "knabu knabu"
+  "link_3 link_3"
   "tekst_4 la"
-  "knala knala"
+  "link_4 link_4"
 }
 
 a:hover {
   background-color: #b30000;
   color: #FFF;
   border-color: #b30000;
-  transition: 1.5s;
+  transition: .5s;
 }
 
 a:not(hover) {
   background-color: #FFF;
   color: #232323;
   border-color: #b30000;
-  transition: 1.5s;
+  transition: .5s;
 }
 
 .tittel {
@@ -83,13 +83,12 @@ a:not(hover) {
   grid-area: tekst_1;
   font-size: 2em;
   line-height: 1.2em;
-  width: 40vw;
+  width: 45vw;
   text-align: justify;
   margin: auto;
 }
 
-.knako  {
-  grid-area: knako;
+* a {
   border-width: '4px';
   border-radius: 5vw;
   border-style: solid;
@@ -105,6 +104,39 @@ a:not(hover) {
   margin-bottom: 2em;
   margin-top: 1em;
 }
+
+  {
+  border-width: '4px';
+  border-radius: 5vw;
+  border-style: solid;
+  border-color: #b30000;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  padding: .6em .5em 0 .5em;
+  width: auto;
+  height: 1.8em;
+  margin-left: 15vw;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+a.link_1 {
+  grid-area: link_1;
+}
+
+a.link_2 {
+  grid-area: link_2;
+}
+
+a.link_3 {
+  grid-area: link_3
+}
+
+a.link_4 {
+  grid-area: link_4
+}
+
 
 /* bilde */
 .pa {
@@ -126,24 +158,6 @@ a:not(hover) {
   margin-right: auto;
 }
 
-.knapa {
-  grid-area: knapa;
-  border-width: '4px';
-  border-radius: 5vw;
-  border-style: solid;
-  border-color: #b30000;
-  font-size: 2em;
-  text-align: center;
-  color: #232323;
-  text-decoration: none;
-  padding: .6em .5em 0 .5em;
-  width: auto;
-  height: 1.8em;
-  margin-left: 15%;
-  margin-right: auto;
-  margin-bottom: 2em;
-}
-
 /* Bilde */
 .bu {
   grid-area: bu;
@@ -156,28 +170,10 @@ a:not(hover) {
   grid-area: tekst_3;
   font-size: 2em;
   line-height: 1.2em;
-  width: 40vw;
-  text-align: justify;
-  margin: 1em;
+  width: 45vw;
+  margin: auto;
 }
 
-.knabu {
-  grid-area: knabu;
-  border-width: '4px';
-  border-radius: 5vw;
-  border-style: solid;
-  border-color: #b30000;
-  font-size: 2em;
-  text-align: center;
-  color: #232323;
-  text-decoration: none;
-  padding: .6em .5em 0 .5em;
-  width: auto;
-  height: 1.8em;
-  margin-left: 66.66666vw;
-  margin-right: auto;
-  margin-bottom: 8vw;
-}
 
 /* bilde */
 .la {
@@ -198,24 +194,6 @@ a:not(hover) {
   margin: auto;
   margin-left: auto;
   margin-right: auto;
-}
-
-.knala {
-  grid-area: knala;
-  border-width: '4px';
-  border-radius: 5vw;
-  border-style: solid;
-  border-color: #b30000;
-  font-size: 2em;
-  text-align: center;
-  color: #232323;
-  text-decoration: none;
-  padding: .6em .5em 0 .5em;
-  width: auto;
-  height: 1.8em;
-  margin-left: 15%;
-  margin-right: auto;
-  margin-bottom: 2em;
 }
 
 
